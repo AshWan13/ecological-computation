@@ -1,0 +1,53 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the underlying papers (see preferred-citation and references)."
+title: "Ecological Computation: human-aware navigation and coverage for a mosquito-control robot"
+authors:
+  - family-names: "Wan Yaw Sang"
+    given-names: "Ash"
+    email: "yaw_sang94@hotmail.com"
+license: BSD-3-Clause
+repository-code: "https://github.com/AshWan13/ecological-computation"
+type: software
+keywords:
+  - robotics
+  - path-planning
+  - coverage-planning
+  - mosquito-control
+  - social-robotics
+preferred-citation:
+  type: conference-paper
+  title: "Efficient Path Planner via Predator Dominance and Prey Approach for a Vector Surveillance Robot"
+  authors:
+    - family-names: "Sang"
+      given-names: "Ash Yaw"
+    - family-names: "Prabakaran"
+      given-names: "Veerajagadheswar"
+    - family-names: "Elara"
+      given-names: "Mohan Rajesh"
+    - family-names: "Le"
+      given-names: "Anh Vu"
+  collection-title: "Social Robotics + AI (ICSR+AI 2025)"
+  volume: 16131
+  start: 281
+  end: 294
+  year: 2026
+  publisher:
+    name: "Springer, Singapore"
+  doi: "10.1007/978-981-95-2379-5_19"
+references:
+  - type: article
+    title: "Human activity-aware coverage path planning for robot-based mosquito control"
+    authors:
+      - family-names: "Wan Yaw Sang"
+        given-names: "Ash"
+      - family-names: "Veerajagadheswar"
+        given-names: "Prabakaran"
+      - family-names: "Elara"
+        given-names: "Mohan Rajesh"
+      - family-names: "Le"
+        given-names: "Anh Vu"
+    journal: "Scientific Reports"
+    volume: 15
+    start: 31009
+    year: 2025
+    doi: "10.1038/s41598-025-16114-1"

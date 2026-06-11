@@ -1,0 +1,3 @@
+# Core algorithm modules (common, ppstar, hfaccpp) need only the Python
+# standard library. The interactive demo additionally needs pygame.
+pygame>=2.1

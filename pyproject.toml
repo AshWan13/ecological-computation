@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ecological-computation"
+version = "0.1.0"
+description = "Ecological Computation: two published human-aware planners for a mosquito-control robot — predator-dominance/prey-approach point-to-point navigation (proximity-cluster crowds) and human-first complete coverage on stacked GBNN layers. Unified pygame demo."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "BSD-3-Clause" }
+authors = [
+    { name = "Ash Wan Yaw Sang", email = "yaw_sang94@hotmail.com" },
+]
+keywords = [
+    "robotics", "path-planning", "coverage-planning", "navigation",
+    "mosquito-control", "social-robotics", "gbnn", "a-star",
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: BSD License",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+# The algorithm modules depend only on the Python standard library.
+dependencies = []
+
+[project.optional-dependencies]
+pygame = ["pygame>=2.1"]
+dev = ["pytest>=7.0", "ruff>=0.1", "black>=23.0"]
+
+[project.urls]
+"Point-to-point paper" = "https://doi.org/10.1007/978-981-95-2379-5_19"
+"Coverage paper" = "https://doi.org/10.1038/s41598-025-16114-1"
+
+[tool.setuptools]
+packages = ["common", "ppstar", "hfaccpp"]
